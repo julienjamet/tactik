@@ -7,6 +7,7 @@ body {
 }
 body li {
   display: flex;
+  height: 35px;
   background: linear-gradient(to right, rgb(201, 127, 67), rgb(92, 66, 33));
   border-left: 2px solid rgb(43, 28, 14);
   border-right: 2px solid rgb(43, 28, 14);
@@ -36,21 +37,41 @@ body li .spot.used {
 }
 body li .spot.four {
   border: 3px solid pink;
+  margin: 0 38px;
 }
 body li .spot.outGreen {
   border: 3px solid green;
   border-radius: 12px;
+  margin: 0 38px;
 }
 body li .spot.outYellow {
   border: 3px solid yellow;
   border-radius: 12px;
+  margin: 0 38px;
 }
 body li .spot.outRed {
   border: 3px solid red;
   border-radius: 12px;
+  margin: 0 38px;
 }
 body li .spot.outBlue {
   border: 3px solid rgb(28, 141, 194);
   border-radius: 12px;
-  margin-top: -5px;
+  margin: 0 38px;
+}
+body li .spot.finalBlue {
+  border: 3px solid rgb(28, 141, 194);
+  margin: 0 37.5px;
+}
+body li .spot.finalGreen {
+  border: 3px solid green;
+  margin: 0 37.5px;
+}
+body li .spot.finalYellow {
+  border: 3px solid yellow;
+  margin: 0 37.5px;
+}
+body li .spot.finalRed {
+  border: 3px solid red;
+  margin: 0 37.5px;
 }/*# sourceMappingURL=index.css.map */
